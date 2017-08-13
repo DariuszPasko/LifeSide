@@ -1,44 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
 *
   box-sizing: border-box;
+  margin: 0
+  padding: 0
 
 $white-color: #ffffff
 $grey-color: #959595
+$greytext: #222626
 $green-color: #82ca9c
 
-$font-text: 14px
+$font-text: 16px
 $font-head: 35px
+$open-sans: 'Open Sans Condensed', sans-serif;
 
 body
-  margin: 0
-  padding: 0
   background: $white-color
-  font-family: Open sans, sans-serif
+  font-family: $open-sans
   font-size: $font-text
-
+  color: $white-color
 
 header
-  width: 100%
+  background: url(../img/baner1.jpg)
+  background-repeat: no-repeat
+  background-size: cover
   position: relative
 
-.photo 
-  position: absolute
-  top: 100px
-  left: 0px
-  text-align: right
+.container
+  max-width: 1200px
+  margin: 0 auto
+ 
+.logo img
+  float: left
+  padding: 50px 0 
 
-.photo img 
-  width: 80%
+.logo
+  color: $white-color
+  font-family: 'Merriweather', serif;
+  
+.logo p 
+  line-height: 50px
+  padding: 50px
+  font-size: 24px
+.slogan
+  max-width: 440px
+  padding: 200px 0
+  
+.slogan p
+  font-size: $font-text
+  
+.slogan h1 
+  font-size: 60px
+  font-weight: 200
 
-.tlo 
-  position: absolute
-  top: 0px
-  left: 0px
+
+.start 
+  color: $grey-color
+  font-size: $font-head
+  position: relative
     
-.tlo img 
-  width: 100%
-.text
+.start h2 
+  @extend .start
+.start p
+  @extend .start 
+  font-size: $font-text
+    
+.start-text1
+  margin-top: 110px
+
+.start-text2
+  margin-top: 320px
+
+.phone img
   position: absolute
-  text-align: left
+  top: 30%
+  left: 45%
+  
+
+.galeria
+  margin: 100px 0
+
+.box1 
+  background-color: #f5989d
+  padding: 40px
+  font-family: $open-sans
+  height: 280px
+
+.box1 h1
+  font-weight: 200
+
+.box1 p
+  margin: 30px 0
+    
+.box1 p span
+  font-weight: bold
+
+.box2
+  @extend .box1
+  background-color: #615f7d
+.box3
+  @extend .box1
+  background: url(../img/baner2.gif)
+.box4
+  @extend .box1
+  background: url(../img/baner6.jpg)
+.box4 p 
+  width: 435px
+.box5 
+  @extend .box1
+  background-color: #82ca9c  
+ 
+.details-col 
+  color: $grey-color
+  padding: 0 0 100px 0
+
+.details h1
+  font-size: $font-head
+  color: $grey-color
+  padding: 5% 1% 
+  
+.details-col h2
+  padding: 15% 0% 
+  
+
+.more 
+  background: url(../img/baner4.jpg)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  
+.more h1
+  font-size: 60px
+  line-height: 60px
+  margin: 5% 0
+  
+.more-text
+  padding: 400px 0 100px 0
+  width: 500px
+.reasons
+  background-color: #82ca9c
+  width: 100%
+  padding: 100px 0
+.reasons h1 
+  margin: 5% 0
+.solo-plan 
+  background-color: #f6f7fa
+  color: $greytext
+  padding: 100px
+.solo, .plan
+  padding: 50px
+  &:hover
+    box-shadow: 0px 0px 45px #e5e6eb
+  
+.solo-plan h2
+  margin: 1% 0 5% 0
+
+.green
+  background: $green-color
+  border: 0px solid
+  font-weight: bold
+  font-size: 14px
+  padding: 10px 20px
+  color: $white-color
+  cursor: pointer
+  border-radius: 3px
+  margin: 5% 0% 
+  padding: 10px 20px
+.legacy
+  background: #e1e1e1
+  border: 0px solid
+  border-radius: 2px
+  font-weight: bold
+  color: $white-color
+  padding: 5px 5px
+.most
+  @extend .legacy
+  background: #a98cc9
+footer
+  background: #192431
+  padding: 100px 0
+.search p
+  color: #536e92
+#search
+  height: 50px
+  width: 400px
+  border: 0px solid
+.fa
+  background: $green-color
+  margin-left: 5px
+  cursor: pointer
+.fa-check
+  padding: 17px
+  border: 0px solid
+.footer2
+  line-height: 20px
+
+  
+ 
+  
+  
 
 
 
