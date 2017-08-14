@@ -51,63 +51,66 @@ header {
   position: relative; }
 
 .start p {
-  font-size: 16px; }
+  font-size: 16px;
+  padding: 10px 0; }
 
 .start-text1 {
-  margin-top: 110px; }
+  margin-top: 5%; }
 
 .start-text2 {
-  margin-top: 320px; }
+  margin-top: 15%; }
 
 .phone img {
   position: absolute;
   top: 30%;
-  left: 45%; }
+  left: 50%;
+  max-width: 500px; }
 
 .galeria {
   margin: 100px 0; }
 
-.box1, .box2, .box3, .box4, .box5 {
+.box1, .box2, .box3, .box4, .box5, .box6 {
   background-color: #f5989d;
-  padding: 40px;
   font-family: "Open Sans Condensed", sans-serif;
-  height: 280px; }
+  width: 100%; }
 
-.box1 h1, .box2 h1, .box3 h1, .box4 h1, .box5 h1 {
+.box1 h1, .box2 h1, .box3 h1, .box4 h1, .box5 h1, .box6 h1 {
   font-weight: 200; }
 
-.box1 p, .box2 p, .box3 p, .box4 p, .box5 p {
+.box1 p, .box2 p, .box3 p, .box4 p, .box5 p, .box6 p {
   margin: 30px 0; }
 
-.box1 p span, .box2 p span, .box3 p span, .box4 p span, .box5 p span {
+.box1 p span, .box2 p span, .box3 p span, .box4 p span, .box5 p span, .box6 p span {
   font-weight: bold; }
 
 .box2 {
   background-color: #615f7d; }
 
 .box3 {
-  background: url(../img/baner2.gif); }
+  background: url(../img/baner2.gif);
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .box4 {
-  background: url(../img/baner6.jpg); }
-
-.box4 p {
-  width: 435px; }
+  background: url(../img/baner6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 229px; }
 
 .box5 {
   background-color: #82ca9c; }
 
+.box6 {
+  background-color: #bd8cbf; }
+
 .details-col {
   color: #959595;
-  padding: 0 0 100px 0; }
+  padding: 3% 0 10% 0; }
 
 .details h1 {
   font-size: 35px;
   color: #959595;
-  padding: 5% 1%; }
-
-.details-col h2 {
-  padding: 15% 0%; }
+  padding: 5% 0 0 0; }
 
 .more {
   background: url(../img/baner4.jpg);
@@ -121,8 +124,8 @@ header {
   margin: 5% 0; }
 
 .more-text {
-  padding: 400px 0 100px 0;
-  width: 500px; }
+  padding: 40% 0 10% 0;
+  width: 40%; }
 
 .reasons {
   background-color: #82ca9c;
@@ -135,7 +138,7 @@ header {
 .solo-plan {
   background-color: #f6f7fa;
   color: #222626;
-  padding: 100px; }
+  padding: 10%; }
 
 .solo, .plan {
   padding: 50px; }
@@ -144,6 +147,9 @@ header {
 
 .solo-plan h2 {
   margin: 1% 0 5% 0; }
+
+.solo-plan p {
+  margin: 0 15% 0 0; }
 
 .green {
   background: #82ca9c;
@@ -172,12 +178,15 @@ footer {
   background: #192431;
   padding: 100px 0; }
 
+.search {
+  padding: 0 0 0 5%; }
+
 .search p {
   color: #536e92; }
 
 #search {
   height: 50px;
-  width: 400px;
+  width: 80%;
   border: 0px solid; }
 
 .fa {
@@ -191,5 +200,21 @@ footer {
 
 .footer2 {
   line-height: 20px; }
+
+.description {
+  padding: 0 5% 0 0; }
+
+.description h2, .description p, .search h2 {
+  padding: 0 0 20px 0; }
+
+.search p {
+  padding: 20px 0px 0 0;
+  width: 60%; }
+
+.footer2 h2 {
+  padding: 20px 0; }
+
+footer p {
+  padding: 5px 0; }
 
 /*# sourceMappingURL=style.css.map */
